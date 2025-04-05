@@ -108,4 +108,4 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-}
+    index.html y style.css 
