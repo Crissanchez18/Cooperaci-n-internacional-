@@ -46,9 +46,66 @@
         <h2>Contacto</h2>
         <p>Si necesitas ayuda con problemas de ciberseguridad, no dudes en contactarnos.</p>
     </section>
-
     <footer>
         <p>&copy; 2025 Ciberseguridad. Todos los derechos reservados.</p>
     </footer>
 </body>
 </html>
+
+/* Estilos básicos para la página de ciberseguridad */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #2c3e50;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #2c3e50;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
